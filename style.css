@@ -1,0 +1,153 @@
+html {
+  background-color: #001933;
+  color: white;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+section {
+  padding: 5rem;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.inspecionar {
+  border: 5px solid red;
+}
+
+.itens-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  padding: 2rem 6rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-weight: 700;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 34rem;
+  height: 24rem;
+
+  margin-right: 10rem;
+}
+
+.main-title {
+  font-size: 4rem;
+}
+
+.main-description {
+  margin: 4rem 0;
+}
+
+.button {
+  border-radius: 0.8rem;
+  background-color: #0033cc;
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+.About-main {
+  background-color: #162340;
+  border-radius: 0.8rem;
+}
+
+.About-Me {
+  padding: 0;
+  margin: 0%;
+  font-size: 3.2rem;
+}
+
+.About-Desc {
+  font-size: 4rem 0;
+}
+
+.Proj-img {
+  height: 20rem;
+  width: 27rem;
+  border-radius: 0.8rem;
+  margin-right: 6rem;
+}
+
+.box {
+}
+
+.Proj-title {
+  font-size: 3rem;
+  display: flex;
+}
+
+.Proj-Desc {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-social {
+  display: flex;
+  padding: 2rem;
+  padding-bottom: 0.1rem;
+  gap: 2rem;
+  margin-top: 8rem;
+}
+
+@media (max-width: 1200px) {
+  .itens-center {
+    flex-direction: column;
+  }
+
+  .button {
+    font-size: 1.4rem;
+  }
+
+  footer,
+  section {
+    padding: 5rem;
+  }
+
+  .main {
+    margin-bottom: 2rem;
+  }
+
+  .main-title {
+    font-size: 3rem;
+  }
+
+  .Proj-img {
+    width: 38rem;
+    height: auto;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .avatar {
+    width: 20rem;
+    height: 20rem;
+
+    margin-right: 0;
+  }
+}
